@@ -1,0 +1,22 @@
+mutation CreateAttachments(
+  $signedIds: [String!]!
+  $relatedId: Int!
+  $relatedType: String!
+  $attribute: String!
+) {
+  create_attachments(
+    input: {
+      related_id: $relatedId
+      related_type: $relatedType
+      attribute: $attribute
+      signed_ids: $signedIds
+    }
+  ) {
+    attachments {
+      id
+      url
+      created_at
+      thumbnail_url
+    }
+  }
+}

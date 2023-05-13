@@ -1,0 +1,14 @@
+
+{
+  "schema": "./graphql.schema.json",
+  "documents": "./src/**/*.graphql",
+  "extensions": {
+    "codegen": {
+      "generates": {
+        "./src/generated/graphql.tsx": {
+          "plugins": ["typescript", "typescript-resolvers"]
+        }
+      }
+    }
+  }
+}
