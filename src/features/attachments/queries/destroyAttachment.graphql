@@ -1,0 +1,7 @@
+mutation DestroyAttachment($relatedId: Int!, $relatedType: String!, $attribute: String!) {
+  destroy_attachment(
+    input: { related_id: $relatedId, related_type: $relatedType, attribute: $attribute }
+  ) {
+    __typename
+  }
+}

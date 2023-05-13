@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1672294501315" clover="3.2.0">
+  <project timestamp="1672294501315" name="All files">
+    <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0" elements="17" coveredelements="0" complexity="0" loc="14" ncloc="14" packages="1" files="4" classes="4"/>
+    <file name=".eslintrc.js" path="/stg/noroot/workspaces/general/ssp/app/.eslintrc.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+    </file>
+    <file name="codegen.js" path="/stg/noroot/workspaces/general/ssp/app/codegen.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+    </file>
+    <file name="metro.config.js" path="/stg/noroot/workspaces/general/ssp/app/metro.config.js">
+      <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+    </file>
+    <file name="webpack.config.js" path="/stg/noroot/workspaces/general/ssp/app/webpack.config.js">
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>

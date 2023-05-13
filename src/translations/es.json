@@ -1,0 +1,158 @@
+{
+  "es": {
+    "app": {
+      "models": {
+        "job_position": "Puesto de trabajo",
+        "participants": "Participantes"
+      },
+      "attributes": {
+        "business": {
+          "name": "Nombre",
+          "industry": "Industria",
+          "numberOfEmployees": "Número de empleados",
+          "logo": "Logo",
+          "industries": {
+            "energy": "Energía",
+            "materials": "Materiales",
+            "capital_goods": "Bienes de Capital",
+            "commercial_professional_services": "Comercial y Servicios Profesionales",
+            "transportation": "Transportación",
+            "automobiles_components": "Automóviles y Componentes",
+            "consumer_durables_apparel": "Bienes de Consumo Duraderos y Confección",
+            "consumer_services": "Servicio al Consumidor",
+            "retailing": "Minorista",
+            "food_staples_retailing": "Venta Minoriste de Alimentos y Productos Básicos",
+            "food_beverage_tobacco": "Comida, Bebidas y Tabáco",
+            "household_personal_products": "Productos de Cuidado Personal y del Hogar",
+            "health_care_equipment_services": "Equipos y Servicios de Salud",
+            "pharmaceuticals_biotechnology_life_sciences": "Productos Farmacéuticos, Biotecnología y Ciencias de la Salud",
+            "banks": "Bancos",
+            "diversified_financials": "Financieras Diversificadas",
+            "insurance": "Seguros",
+            "software_services": "Software y Servicios",
+            "technology_hardware_equipment": "Hardware y Equipos Tecnológicos",
+            "semiconductors_semiconductor_equipment": "Semiconductores y Equipos de Semiconductores",
+            "telecommunication_services": "Servicios de Telecomunicaciones",
+            "media_entertainment": "Medios y Entretenimiento",
+            "utilities": "Servicios Públicos",
+            "real_estate": "Bienes Raíces"
+          }
+        },
+        "user_invitation": {
+          "email": "Correo electrónico",
+          "date_of_entry": "Fecha de ingreso",
+          "first_name": "Nombre",
+          "last_name": "Apellido",
+          "phone_number": "Número de teléfono"
+        },
+        "user": {
+          "state": "Estado",
+          "phone_number": "Número de teléfono",
+          "email": "Correo electrónico",
+          "name": "Nombre"
+        }
+      },
+      "actions": {
+        "invite_success": "La invitación se ha enviado correctamente",
+        "update": "Actualizar",
+        "update_success": "Su información ha sido actualizada con éxito",
+        "error": "Algo salió mal",
+        "next": "Siguiente",
+        "upload": {
+          "label": "Imagen",
+          "action": "Subir imagen"
+        },
+        "invite": "Invitar",
+        "start": "Iniciar sesión"
+      },
+      "screens": {
+        "not_found": {
+          "title": "¿Estás perdido?",
+          "action": "Regresa al inicio"
+        }
+      },
+      "features": {
+        "rooms": {
+          "create_session": {
+            "title": "Programe o cree una sesión de bonding por videollamada",
+            "action_1": "Iniciar una reunión instantanea",
+            "action_2": "Crear una reunión para después",
+            "action": "Empezar reunión",
+            "action_schedule": "Programar reunión",
+            "placeholder": "Escoge un tipo de reunión",
+            "skip_for_now": "Saltar por ahora"
+          },
+          "participants": {
+            "title": "Participantes",
+            "invite": {
+              "action": "Invitar",
+              "by_email": "o invita a otras personas por correo electrónico",
+              "add": "Agrega participantes a la reunión",
+              "guests": "Invitados"
+            },
+            "join": {
+              "title": "%{name} te ha invitado a una reunión",
+              "action": "Unirme"
+            }
+          }
+        },
+        "setup": {
+          "business": {
+            "title": "Completa la información del negocio."
+          },
+          "user": {
+            "title": "Completa la informacióin de usuario."
+          },
+          "demo": {
+            "title": "Invita a algunos compañeros de trabajo a su primera sesión."
+          },
+          "quick_action": {
+            "title": "Organiza tu primera sesión"
+          }
+        },
+        "users": {
+          "invite": {
+            "title": "Invita a un compañero de trabajo",
+            "categories": {
+              "user_invitations": "Invitaciones"
+            },
+            "groups": {
+              "others": "Otros"
+            },
+            "add_email": "Agregar correo electrónico"
+          },
+          "list": {
+            "undefined_job_position": "Puesto de trabajo indefinido",
+            "actions": {
+              "invite_coworker": "Invitar a un compañero de trabajo"
+            }
+          }
+        },
+        "sessions": {
+          "guest_could_not_be_added": "El invitado no pudo ser agregado",
+          "guest_added_successfully": "El invitado se agregó exitosamente",
+          "guest_removed_successfully": "El invitado se removió exitosamente",
+          "guest_could_not_be_removed": "El invitado no pudo ser removido",
+          "user_invitation_canceled_successfully": "La invitación fue cancelada con éxito",
+          "user_invitation_could_not_be_canceled": "La invitación no pudo ser cancelada",
+          "list_pending_sessions": {
+            "title": "Sesiones pendientes"
+          },
+          "guests": "Invitados",
+          "waiting_room": {
+            "someone": "Alguien"
+          }
+        },
+        "welcome": {
+          "welcome_screen": {
+            "create_session": "Crear sesión de bonding"
+          }
+        }
+      },
+      "errors": {
+        "required_field": "es un campo requerido",
+        "email_field": "debe ser un correo electrónico válido"
+      }
+    }
+  }
+}

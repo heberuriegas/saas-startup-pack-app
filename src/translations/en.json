@@ -1,0 +1,159 @@
+{
+  "en": {
+    "app": {
+      "models": {
+        "job_position": "Job position",
+        "participants": "Participants"
+      },
+      "attributes": {
+        "business": {
+          "name": "Name",
+          "industry": "Industry",
+          "numberOfEmployees": "Number of employees",
+          "logo": "Logo",
+          "industries": {
+            "energy": "Energy",
+            "materials": "Materials",
+            "capital_goods": "Capital Goods",
+            "commercial_professional_services": "Commercial & Professional Services",
+            "transportation": "Transportation",
+            "automobiles_components": "Automobiles & Components",
+            "consumer_durables_apparel": "Consumer Durables & Apparel",
+            "consumer_services": "Consumer Services",
+            "retailing": "Retailing",
+            "food_staples_retailing": "Food & Staples Retailing",
+            "food_beverage_tobacco": "Food, Beverage & Tobacco",
+            "household_personal_products": "Household & Personal Products",
+            "health_care_equipment_services": "Health Care Equipment & Services",
+            "pharmaceuticals_biotechnology_life_sciences": "Pharmaceuticals, Biotechnology & Life Sciences",
+            "banks": "Banks",
+            "diversified_financials": "Diversified Financials",
+            "insurance": "Insurance",
+            "software_services": "Software & Services",
+            "technology_hardware_equipment": "Technology Hardware & Equipment",
+            "semiconductors_semiconductor_equipment": "Semiconductors & Semiconductor Equipment",
+            "telecommunication_services": "Telecommunication Services",
+            "media_entertainment": "Media & Entertainment",
+            "utilities": "Utilities",
+            "real_estate": "Real Estate"
+          }
+        },
+        "user_invitation": {
+          "email": "Email",
+          "date_of_entry": "Date of entry",
+          "first_name": "First name",
+          "last_name": "Last name",
+          "phone_number": "Phone number"
+        },
+        "user": {
+          "state": "State",
+          "phone_number": "Phone number",
+          "email": "Email",
+          "name": "Name"
+        }
+      },
+      "actions": {
+        "invite_success": "The invitation has been sent successfully",
+        "update": "Update",
+        "update_success": "Your information has been sucessfully updated",
+        "error": "Something went wrong",
+        "next": "Next",
+        "upload": {
+          "label": "Image",
+          "action": "Upload image"
+        },
+        "invite": "Invite",
+        "start": "Start session"
+      },
+      "screens": {
+        "not_found": {
+          "title": "Are you lost?",
+          "action": "Go back home"
+        }
+      },
+      "features": {
+        "rooms": {
+          "create_session": {
+            "title": "Schedule or create a video call bonding session",
+            "action_1": "Start an instant meeting",
+            "action_2": "Create a meeting for later",
+            "action": "Start meeting",
+            "action_schedule": "Schedule meeting",
+            "placeholder": "Choose a meeting type",
+            "skip_for_now": "Skip for now"
+          },
+          "participants": {
+            "title": "Participants",
+            "invite": {
+              "action": "Invite",
+              "by_email": "or invite other people by email",
+              "add": "Add participants to the meeting",
+              "guests": "Guests"
+            },
+            "join": {
+              "title": "%{name} has invited you to a meeting",
+              "action": "Join"
+            }
+          }
+        },
+        "setup": {
+          "business": {
+            "title": "Complete business information."
+          },
+          "user": {
+            "title": "Complete your information."
+          },
+          "demo": {
+            "title": "Invite some co-workers to your first session."
+          },
+          "quick_action": {
+            "title": "Organize your first session"
+          }
+        },
+        "users": {
+          "invite": {
+            "title": "Invite a coworker",
+            "categories": {
+              "user_invitations": "Invites"
+            },
+            "groups": {
+              "others": "Others"
+            },
+            "add_email": "Add email"
+          },
+          "list": {
+            "undefined_job_position": "Undefined job position",
+            "actions": {
+              "invite_coworker": "Invite a coworker"
+            },
+            "state": "State"
+          }
+        },
+        "sessions": {
+          "guest_could_not_be_added": "The guest could not be added",
+          "guest_added_successfully": "Guest added successfully",
+          "guest_removed_successfully": "Guest removed successfully",
+          "guest_could_not_be_removed": "The guest could not be removed",
+          "user_invitation_canceled_successfully": "Invitation was successfully canceled",
+          "user_invitation_could_not_be_canceled": "Invitation could not be canceled",
+          "list_pending_sessions": {
+            "title": "Pending sessions"
+          },
+          "guests": "Guests",
+          "waiting_room": {
+            "someone": "Someone"
+          }
+        },
+        "welcome": {
+          "welcome_screen": {
+            "create_session": "Create bonding session"
+          }
+        }
+      },
+      "errors": {
+        "required_field": "is a required field",
+        "email_field": "must be a valid email"
+      }
+    }
+  }
+}
